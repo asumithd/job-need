@@ -13,7 +13,7 @@ section {
 }
 
 .textBox {
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -21,7 +21,7 @@ section {
 }
 
 .bgImg {
-    width: 70%;
+    width: 65%;
     background: url('./4153553.jpg');
     min-height: 100vh;
     background-position: center;
@@ -48,7 +48,7 @@ section {
 }
 
 .midBox {
-    min-height: 75vh;
+    margin-top: 10%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -60,7 +60,7 @@ h3.nameText {
     margin: 0;
     color: #212e7c;
     font-family: 'Sriracha', cursive;
-    font-size: 3.3rem;
+    font-size: 52px;
     text-transform: uppercase;
     word-break: break-all;
 }

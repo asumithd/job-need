@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textBox {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.bgImg {
+    width: 70%;
+    background: url('./4153553.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.topBox {
+    width: 100%;
+}
+
+.logoBox {
+    width: 150px;
+    padding: 20px 0 0 0;
+    height: 150px;
+}
+
+.logoBox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+    background: #f4f7ff;
+}
+
+.midBox {
+    min-height: 75vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+h3.nameText {
+    margin: 0;
+    color: #212e7c;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.3rem;
+    text-transform: uppercase;
+    word-break: break-all;
+}
+
+p.paraText {
+    color: #212e7c;
+    font-family: 'Sriracha', cursive;
+    font-size: 1rem;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+a {
+    background: #6785ff;
+    color: #fff;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: serif;
+    margin: 0 auto;
+}
